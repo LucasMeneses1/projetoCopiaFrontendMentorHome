@@ -1,0 +1,9 @@
+@import "./global.css";
+@import "./header.css";
+@import "./utilitarios/tipografia.css";
+@import "./utilitarios/cores.css";
+@import "./utilitarios/componentes.css";
+
+.borda {
+  border: 1px solid red;
+}

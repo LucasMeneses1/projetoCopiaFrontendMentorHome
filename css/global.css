@@ -1,0 +1,29 @@
+body,
+header,
+div,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+li,
+span,
+a {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  margin: 0px;
+  padding: 0px;
+}

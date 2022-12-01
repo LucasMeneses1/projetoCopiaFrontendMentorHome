@@ -1,0 +1,31 @@
+.preto-texto {
+  color: #1c2022;
+}
+
+.cinza-texto {
+  color: #737373;
+}
+
+.branco-texto {
+  color: #ffffff;
+}
+
+.cor-p {
+  color: #3e54a3;
+}
+
+.bg-p {
+  background-color: #3e54a3;
+}
+
+.bg-s {
+  background-color: #fafafa;
+}
+
+.bg-s-p {
+  background-color: #1b1e20;
+}
+
+.bg-v {
+  background-color: #ed2c49;
+}
