@@ -1,0 +1,82 @@
+.introducao {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.introducao-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  height: 600px;
+  gap: 40px;
+  align-items: center;
+  margin: auto;
+}
+
+.introducao-txt {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 80ch;
+  letter-spacing: 0.02rem;
+}
+
+.introducao-txt h1 {
+  position: relative;
+}
+
+.introducao-txt h1::before {
+  content: url("../img/borda-int.svg");
+  position: absolute;
+  top: 25px;
+  left: -145px;
+}
+
+.introducao-txt p {
+  max-width: 55ch;
+  margin: 20px 20px 30px 0px;
+}
+
+.introducao-img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 480px;
+}
+
+.introducao-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 200px;
+  gap: 8px;
+  background-color: #ed2c49;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 30px;
+}
+
+@media (max-width: 1200px) {
+  .introducao {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .introducao-container {
+    padding: 0 20px;
+    margin: 0;
+  }
+  .introducao-img {
+    display: none;
+  }
+
+  .introducao-txt {
+    max-width: 800px;
+  }
+
+  .introducao-txt p {
+    max-width: 80ch;
+    margin: 20px 20px 30px 0px;
+  }
+}
